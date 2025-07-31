@@ -118,7 +118,7 @@ SAMLSmith.exe generatePFX --encryptedPFXPath C:\dumps\EncryptedPfx.bin --dkmKeyP
 
 ## Credits
 
-This tool includes components translated from the original Python tool [ADFSpoof](https://github.com/mandiant/ADFSpoof) created by Doug Bienstock while at Mandiant FireEye, licensed under Apache License 2.0. The `EncryptedPFXDecryptor` class is a C# translation of the PFX decryption functionality from ADFSpoof.
+This tool includes components translated from the Python tool [ADFSpoof](https://github.com/mandiant/ADFSpoof) created by Doug Bienstock while at Mandiant FireEye, licensed under Apache License 2.0. The `EncryptedPFXDecryptor` class is a C# translation of the PFX decryption functionality from ADFSpoof.
 
 ## References
 
