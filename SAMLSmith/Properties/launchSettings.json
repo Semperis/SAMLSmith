@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SAMLSmith": {
+      "commandName": "Project",
+      "commandLineArgs": "generate --pfxPath C:\\Temp\\saml.fabrikam.cloud.pfx --pfxPassword Password1234! --idpid https://sts.windows.net/11ae06df-10e8-4b9e-bf66-2a91f4955339/ --recipient https://fabrikam3-dev-ed.my.salesforce.com --subjectnameid patti.fernandez@fabrikam.cloud --audience https://fabrikam3-dev-ed.my.salesforce.com --attributes http://schemas.microsoft.com/identity/claims/tenantid=f7885bfa-e88a-4061-af7c-f83874b9cc04,http://schemas.microsoft.com/identity/claims/objectidentifier=765fcefefe-b977-45fb-af0a-e4f109a0bff8,http://schemas.microsoft.com/identity/claims/displayname=Patti Fernandez,http://schemas.microsoft.com/identity/claims/identityprovider=https://sts.windows.net/f7885bfa-e88a-4061-af7c-f83874b9cc04/,http://schemas.microsoft.com/claims/authnmethodsreferences=http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password,http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname=Patti,http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname=Fernandez,http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress=patti.fernandez@fabrikam.cloud,http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name=patti.fernandez@fabrikam.cloud"
+    }
+  }
+}
