@@ -2,8 +2,6 @@
 using Newtonsoft.Json.Linq;
 using CommandLine;
 using CommandLine.Text;
-using SAMLSmith.ADFS;
-
 
 namespace SAMLSmith;
 
